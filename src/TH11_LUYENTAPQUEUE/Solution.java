@@ -41,10 +41,10 @@ public class Solution extends Queue{
         temp.toString();
         System.out.print(" Elements in Circular Queue are: ");
 
+
         while (temp.next != q.front) {
             System.out.println(temp.data);
             temp = temp.next;
-
         }System.out.println(temp.data);
 
 //       for (int i =0; i<1;i++) {
